@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NotifyProviderAPI", "NotifyProviderAPI\NotifyProviderAPI.csproj", "{FF782FDB-DC34-4DE1-9342-A8DD53D6150D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NotifyProviderApplication", "NotifyProviderApplication\NotifyProviderApplication.csproj", "{FE5FA52C-C304-4C4C-A894-F5D2A6794F55}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FF782FDB-DC34-4DE1-9342-A8DD53D6150D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FF782FDB-DC34-4DE1-9342-A8DD53D6150D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FF782FDB-DC34-4DE1-9342-A8DD53D6150D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FF782FDB-DC34-4DE1-9342-A8DD53D6150D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FE5FA52C-C304-4C4C-A894-F5D2A6794F55}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FE5FA52C-C304-4C4C-A894-F5D2A6794F55}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FE5FA52C-C304-4C4C-A894-F5D2A6794F55}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FE5FA52C-C304-4C4C-A894-F5D2A6794F55}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

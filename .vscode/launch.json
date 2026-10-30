@@ -1,0 +1,31 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "C#: NotifyProviderAPI Debug",
+            "type": "dotnet",
+            "request": "launch",
+            "projectPath": "${workspaceFolder}/NotifyProviderAPI/NotifyProviderAPI.csproj"
+        },
+        {
+            "name": "C#: NotifyProviderAPI Debug (coreclr fallback)",
+            "type": "coreclr",
+            "request": "launch",
+            "preLaunchTask": "build NotifyProviderAPI",
+            "program": "${workspaceFolder}/NotifyProviderAPI/bin/Debug/net8.0/NotifyProviderAPI.dll",
+            "cwd": "${workspaceFolder}/NotifyProviderAPI",
+            "stopAtEntry": false,
+            "env": {
+                "ASPNETCORE_ENVIRONMENT": "Development"
+            },
+            "serverReadyAction": {
+                "action": "openExternally",
+                "pattern": "\\bNow listening on:\\s+(https?://\\S+)"
+            }
+        }
+
+    ]
+}
